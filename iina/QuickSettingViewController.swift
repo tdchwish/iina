@@ -344,11 +344,6 @@ class QuickSettingViewController: NSViewController, SidebarViewController {
   }
 }
 
-class QuickSettingView: NSView {
-  override func mouseDown(with event: NSEvent) {}
-  override func mouseUp(with event: NSEvent) {}
-}
-
 
 fileprivate class TabButton: NSButton {
   class Cell: NSButtonCell {
